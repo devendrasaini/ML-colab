@@ -18,3 +18,4 @@ df.groupby('Gender').size().plot('bar',label='Gender')
 
 plt.scatter(df.iloc[0:,6             ],df.iloc[0:,8        ])
 
+df.groupby('Geography').size().plot('pie',label='Country',autopct='%d%%')
