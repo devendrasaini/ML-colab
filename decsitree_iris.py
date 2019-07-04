@@ -38,7 +38,7 @@ from sklearn.datasets import load_iris
 iris=load_iris()
 
 
-# In[16]:
+# In[16] :
 
 
 dir(iris)
